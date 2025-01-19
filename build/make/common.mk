@@ -4,7 +4,7 @@ export MAKEFILES_PATH ?= $(TREMO_SDK_PATH)/build/make
 export SCRIPTS_PATH ?= $(TREMO_SDK_PATH)/build/scripts
 export OUT_DIR ?= out
 export VIEW
-export PYTHON = python
+export PYTHON = python2
 export HOST_ARCH := Cortex-M4F
 
 ifeq ($(shell uname), Linux)
